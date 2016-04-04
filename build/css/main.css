@@ -22,24 +22,13 @@ body {
   width: 100%;
 }
 
-.small-apps > :not(:first-child) {
-  margin-top: 20px;
-  padding-top: 20px;
-  border-top: 1px solid #ddd;
+.intro-text {
+  background-color: #6699cc;
+  text-align: center;
+  color: white;
 }
 
-.large-app {
-  padding-left: 40px;
-}
-
-/* 
-For DropdownMenu appearance styles exercise: 
-Define your custom class below.
-*/
-.my-custom-class {
-  /* 
-  font-style: italic;
-  font-weight: 600;
-  font-family: 'Monotype'; 
-  */
+.form-group {
+  width: 800px;
+  margin-top: 5%;
 }

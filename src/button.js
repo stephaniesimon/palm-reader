@@ -3,14 +3,22 @@ var ReactDOM = require('react-dom');
 
 var Button = React.createClass({
   render: function() {
-    return (<div>
-        <button type="button"></button>
-      </div>
+    return (<button
+            type={this.props.type}
+            class={this.props.class}
+            placeholder={this.props.placeholder}>
+            submit
+            </button>
     )
   }
 });
 
 ReactDOM.render(
-  <Button instructions="Paste ingredients here"/>,
+  <Button
+    placeholder="Paste ingredients here"
+    type="button"
+    class="btn btn-default btn-lg btn-block"
+  />,
   document.getElementById('button')
 );
+
